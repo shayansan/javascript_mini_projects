@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #E55D87;
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);
+    background: linear-gradient(to right, #5FC3E4, #E55D87);
+    height: 96vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 3rem;
+}
+
+.buttons button {
+    padding: 0.5rem 2.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    background: #E55D87;
+    color: white;
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);
+    background: linear-gradient(to right, #5FC3E4, #E55D87);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    color: rgb(206, 201, 201);
+    transition: all ease-out 0.5s;
+}
+
+h2 {
+    font-weight: bold;
+    color: white;
+}
+
+#text {
+    outline: none;
+    width: 10rem;
+    height: 1.3rem;
+}
+
+#content {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: larger;
+    display: none;
+}
