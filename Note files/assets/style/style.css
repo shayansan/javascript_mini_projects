@@ -1,0 +1,160 @@
+/* General Reset */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #7e7f80;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+}
+
+.input-section {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#input {
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    outline: none;
+    width: 60%;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btn {
+    background-color: #60a7ed;
+    color: #fff;
+}
+
+#remove-btn {
+    background-color: #f25f5c;
+    color: #fff;
+}
+
+.colors {
+    margin: 1rem 0;
+}
+
+.colors p {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.colors button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.colors button:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.my-span {
+    padding: 0.5rem 1rem;
+    background: #e3e3e3;
+    color: #333;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.my-span:hover {
+    background: #d1d1d1;
+    transform: translateY(-3px);
+}
+
+/* Colors for Background Buttons */
+.Baby-Blue {
+    background-color: #D4E8F4;
+}
+
+.pink {
+    background-color: #F2A1EA;
+}
+
+.Mint-Green {
+    background-color: #CFF7CF;
+}
+
+.Butter-Yellow {
+    background-color: #FFF4C2;
+}
+
+.Lavender {
+    background-color: #EADCF8;
+}
+
+.Light-Beige {
+    background-color: #eec451;
+}
+
+.Light-Khaki {
+    background-color: #1ac768;
+}
+
+.Soft-Taupe {
+    background-color: #C5B9AC;
+}
+
+.Dusty-Rose {
+    background-color: #de365d;
+}
+
+.blue {
+    background-color: #60A7ED;
+}
