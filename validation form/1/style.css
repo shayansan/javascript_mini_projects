@@ -1,0 +1,73 @@
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 2);
+}
+
+.username {
+    width: 90%;
+    height: 1.1rem;
+}
+
+.password {
+    width: 90%;
+    height: 1.1rem;
+}
+
+.usernameLabel {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    width: 90%;
+    font-family: cursive;
+}
+
+.passwordLabel {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    width: 90%;
+    font-family: cursive;
+}
+
+.sendInfo {
+    margin-top: 2rem;
+    background-color: rgb(66, 255, 100);
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    padding: 0.7rem 10em;
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    background-color: rgb(237, 68, 68);
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 1.7rem;
+    border-radius: 0.3rem;
+    display: none;
+}

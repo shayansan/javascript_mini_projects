@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-form">
+        <h2>Login</h2>
+        <div class="form">
+            <label for="username" class="usernameLabel">username:</label>
+            <input type="name" name="username" class="username" onkeydown="userNameValidation()">
+            <span class="usernamespan">it must contain at least 12 character</span>
+            <label for="password" class="passwordLabel">password:</label>
+            <input type="password" name="password" class="password" onkeydown="userPassValidation()">
+            <span class="passwordspan">it must contain at least 8 character</span>
+            <button class="sendInfo">Send</button>
+        </div>
+    </div>
+    <div class="modal">
+        please enter information correctly.
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
