@@ -1,0 +1,31 @@
+#todoList li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.li-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.uncompleted label {
+  color: #afa7a7;
+  text-decoration: line-through;
+}
+
+#todoList .btn {
+  margin-left: 10px;
+}
+
+#todoList .buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#todoList label {
+  flex-grow: 1;
+}
